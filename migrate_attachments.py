@@ -4,7 +4,7 @@ import hashlib
 import os
 import time
 
-base_path = '/home/keens/Desktop'
+base_path = '/home/user/Desktop'
 
 conn = psycopg2.connect(host='localhost', dbname='test', user='postgres' ,password='' ,port=5433)
 cur = conn.cursor()
