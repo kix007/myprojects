@@ -1,12 +1,12 @@
-**Helium BlockChain **
+# Helium BlockChain 
 - A small program written in React framework to showcast how the frontend and backend can communicate with an API endpoint
 
-**Frameworks /Languages used in this project**
+# Frameworks /Languages used in this project
 - React (Front-end)
 - Python (Backend)
 - Postgresql (Database)
 
-**To get started**
+# To get started
 1. git clone repository
 2. sudo apt-get install docker-compose
 3. Go to the "engineering" folder and run the following command:
@@ -14,13 +14,13 @@
 4. The build process will create a client frontend, backend and a postgresql database
 5. Once the process is completed, launch your app on http://127.0.0.1:3000
 
-**Front-End**
+# Front-End
 - The site shows an example of the following features as follows:
 1. Block Chain accounts list
 2. Stats
 3. Graphs
 
-**Backend (API Endpoints)**
+# Backend (API Endpoints)
 - The server runs on the following url: http://127.0.0.1:8001
 - Request method is **GET** for all endpoints
 1. http://127.0.0.1:8001/accounts_list - shows a list of all the blockchain accounts
