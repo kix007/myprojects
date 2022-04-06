@@ -8,7 +8,7 @@
 
 # To get started
 1. git clone repository
-2. sudo apt-get install docker-compose
+2. `sudo apt-get install docker-compose`
 3. Go to the "engineering" folder and run the following command:
   - `docker-compose up -d --build`
 4. The build process will create a client frontend, backend and a postgresql database
