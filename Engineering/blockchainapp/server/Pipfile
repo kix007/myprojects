@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+aiohttp = ""
+argon2-cffi = "*"
+asyncpg = "*"
+bcrypt = "*"
+passlib = "*"
+dicttoxml = "*"
+jinja2 = "*"
+requests ="*"
+
+[requires]
+python_version = "3.8"

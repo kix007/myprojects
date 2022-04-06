@@ -1,0 +1,11 @@
+.headerPie {
+    position: fixed;
+    top: 110px;
+    left: 50%;
+}
+
+.piechart {
+    position: fixed;
+    top: 182px;
+    left: 50%;
+}

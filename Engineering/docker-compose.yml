@@ -1,0 +1,39 @@
+version: '3.0'
+
+services:
+  client:
+    container_name: client
+    build: ./blockchainapp/client/
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+  server:
+    container_name: server-api
+    build: ./blockchainapp/server/
+    ports:
+      - '8001:8001'
+    environment:
+      - PGUSER=postgres
+      - PGHOST=postgres
+      - PGDATABASE=mydb
+      - PGPASSWORD=masterkey
+      - PGPORT=5432
+    depends_on:
+      - postgres
+    restart: on-failure
+
+  # Postgres
+  postgres:
+    image: postgres:12
+    container_name: db-postgres
+    #build: ./postgres
+    ports:
+      - "5432:5432"
+    volumes:
+    - ./blockchainapp/sql/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: masterkey
+      POSTGRES_DB: mydb
+      POSTGRES_HOST: postgres
