@@ -28,3 +28,4 @@
 2. http://127.0.0.1:8001/stats - shows a list of stats on the blockchain network
 3. http://127.0.0.1:8001/rewards - shows a list of rewards for today on the blockchain network
 
+- The database and app values can be configured in the `config.ini` file (see server folder readme)
