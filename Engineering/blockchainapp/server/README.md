@@ -1,4 +1,4 @@
-# Backend Server
+### Backend Server ###
 - To run the server manually, you must do the following:
 1. `pip install -r requirements.txt`
 2. Edit the `config.ini` file with the correct database and app values
