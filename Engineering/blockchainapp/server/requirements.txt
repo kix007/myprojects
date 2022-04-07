@@ -1,0 +1,8 @@
+aiohttp = ""
+argon2-cffi = "*"
+asyncpg = "*"
+bcrypt = "*"
+passlib = "*"
+dicttoxml = "*"
+jinja2 = "*"
+requests ="*"
