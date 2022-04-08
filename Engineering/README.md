@@ -16,6 +16,7 @@
 5. Once the process is completed, launch your app on http://127.0.0.1:3000
 
 # Front-End
+**Note** !!! In the `.env file` in the client folder, both the App and API URL is configurable.
 - The site shows an example of the following features as follows:
 1. Block Chain accounts list
 2. Stats
@@ -29,3 +30,4 @@
 3. http://127.0.0.1:8001/rewards - shows a list of rewards for today on the blockchain network
 
 - The database and app values can be configured in the `config.ini` file (see server folder readme)
+
